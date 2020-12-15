@@ -493,7 +493,7 @@ function start_containers {
 		run_or_start_container csmongo
 		sleep 5
 	fi
-	echo "Starting containuers..."
+	echo "Starting containers..."
 	run_or_start_container csrabbitmq
 	sleep 7
 	run_or_start_container csbcast
